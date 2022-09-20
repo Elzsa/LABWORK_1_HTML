@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Spa website">
+    <meta name="author" content="Elsa PAYA">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src ="assets/images/su_banner.gif" alt="su_banner.gif">
+            
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Our Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main class="content">
+            <h2>Contact Us :</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information : </legend>
+                    <label for="FirstName"> First Name : *</label>
+                    <input type="text" id="FirstName" maxlength="25" required>
+                    <br><br>
+                    <label for="LastName">Last Name : *</label>
+                    <input type="text" id="LastName" maxlength="25" required>
+                    <br><br>
+                    <label for="email">Email: *</label>
+                    <input type="email" id="email" maxlength="35" required>
+                    <br>
+
+                    <ul>
+                    <li>Please select the music genre(s) that you like :</li>
+                    </ul>
+                    <input type="checkbox" id="check1" value="Classic">
+                    <label for="check1">Classic</label>
+                    <br>
+                    <input type="checkbox" id="check2" value="Jazz">
+                    <label for="check2">Jazz</label>
+                    <br>
+                    <input type="checkbox" id="check3" value="Blues">
+                    <label for="check3">Blues</label>
+                    <br>
+                    <input type="checkbox" id="check4" value="Instrumental">
+                    <label for="check4">Instrumental</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Message</legend>
+                    <label for="selection">How did you hear about us?</label>
+                    <select id="selection" title="How did you hear about us?">
+                        <option>Our website</option>
+                        <option>Friends</option>
+                        <option>TV Adv.</option>
+                        <option>Other</option>
+                    </select>
+                    <br><br>
+
+                    <label>Would you recommend us to your friends?</label>
+                    <br>
+                    <input type="radio" id="btn1" checked>
+                    <label for="btn1">Yes</label>
+                    <input type="radio" id="btn2">
+                    <label for="btn2">No</label>
+                    <input type="radio" id="btn3">
+                    <label for="btn3">Maybe</label>
+                    <br><br>
+
+                    <label for="text1">Your request :</label>
+                    <br>
+                    <textarea id="text1"></textarea>
+                    <br>
+                    <input type="checkbox" id="check5" checked>
+                    <label for="check5">Sign me up for email updates</label>
+                    <br><br>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" value="Submit">
+                </fieldset>
+            </form>
+            <br><br><br>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2885.8659971242787!2d-79.39194918450164!3d43.671756679120655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b64e1140d%3A0xd11156503e310196!2sSpa%20at%20Four%20Seasons%20Toronto!5e0!3m2!1sfr!2sca!4v1663702618486!5m2!1sfr!2sca" 
+            width="600" height="450"  title="FourSeasonMap" allowfullscreen=""  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </main>
+
+
+
+        <footer>
+
+            <p>Copyright © 2022 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Elsa Anastasia PAYA - All rights 
+                reserved</p>
+        </footer>
+</body>
+</html>
